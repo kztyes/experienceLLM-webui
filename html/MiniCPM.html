@@ -1,0 +1,17 @@
+<div style='height:450px;overflow:auto'>
+
+    <p style='font-weight:bold;font-size:16px'>简介：</p>
+
+    <p>MiniCPM-Llama3-V 2.5 是 MiniCPM-V 系列的最新版本模型，基于 SigLip-400M 和 Llama3-8B-Instruct 构建，共 8B 参数量，相较于 MiniCPM-V 2.0 性能取得较大幅度提升。MiniCPM-Llama3-V 2.5 值得关注的特点包括：</p>
+
+    <p>1. 领先的性能。 MiniCPM-Llama3-V 2.5 在综合了 11 个主流多模态大模型评测基准的 OpenCompass 榜单上平均得分 65.1，以 8B 量级的大小超过了 GPT-4V-1106、Gemini Pro、Claude 3、Qwen-VL-Max 等主流商用闭源多模态大模型，大幅超越基于Llama 3构建的其他多模态大模型。</p>
+
+    <p>2. 优秀的 OCR 能力。 MiniCPM-Llama3-V 2.5 可接受 180 万像素的任意宽高比图像输入，OCRBench 得分达到 725，超越 GPT-4o、GPT-4V、Gemini Pro、Qwen-VL-Max 等商用闭源模型，达到最佳水平。基于近期用户反馈建议，MiniCPM-Llama3-V 2.5 增强了全文 OCR 信息提取、表格图像转 markdown 等高频实用能力，并且进一步加强了指令跟随、复杂推理能力，带来更好的多模态交互体感。</p>
+
+    <p>3. 借助最新的 RLAIF-V 对齐技术（RLHF-V [CVPR'24]系列的最新技术），MiniCPM-Llama3-V 2.5 具有更加可信的多模态行为，在 Object HalBench 的幻觉率降低到了 10.3%，显著低于 GPT-4V-1106 (13.6%)，达到开源社区最佳水平。</p>
+
+    <p>4. 得益于 Llama 3 强大的多语言能力和 VisCPM 的跨语言泛化技术，MiniCPM-Llama3-V 2.5 在中英双语多模态能力的基础上，仅通过少量翻译的多模态数据的指令微调，高效泛化支持了德语、法语、西班牙语、意大利语、韩语等 30+ 种语言的多模态能力，并表现出了良好的多语言多模态对话性能。</p>
+
+    <p>5. MiniCPM-Llama3-V 2.5 较为系统地通过模型量化、CPU、NPU、编译优化等高效加速技术，实现高效的终端设备部署。对于高通芯片的移动手机，我们首次将 NPU 加速框架 QNN 整合进了 llama.cpp。经过系统优化后，MiniCPM-Llama3-V 2.5 实现了多模态大模型端侧语言解码速度 3 倍加速、图像编码 150 倍加速的巨大提升。</p>
+
+</div>
