@@ -1,6 +1,8 @@
 # experienceLLM-webui
 A simple UI interface for experiencing LLMs, built with Gradio
 
+![image](https://github.com/kztyes/experienceLLM-webui/blob/main/images/UI.png)
+
 ## Features
 
 - Provide common model management functions such as filtering, editing, and deleting LLMs
